@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+::selection {
+    background-color: rgba(255, 28, 28, 0.26);
+    color: rgb(35, 174, 255);
+}
+
+.introdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#pfp  {
+    margin-top: 250px;
+    border: 8px solid rgb(72, 153, 212);
+    box-shadow: 0 0 10px rgb(72, 153, 212);
+    border-radius: 120px;
+    padding: 15px;
+}
+
+#name {
+    display: flex;
+    height: 90px;
+    color: rgb(239, 77, 106);
+    text-shadow: 0 0 10px rgb(72, 153, 212);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(72, 153, 212);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#profession {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #474f55;
+    text-shadow: 0 0 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.chained {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.links-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#socialmedia {
+    display: flex;
+    right: 687px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #495157;
+    text-shadow: 1px 1px 4px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.icons a {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: rgb(255, 127, 127);
+    text-shadow: 2px 1px 3px #474f55;
+}
