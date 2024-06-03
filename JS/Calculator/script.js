@@ -17,13 +17,13 @@ function setOP(op){
         case "/": 
         case "+":
         case "-":
-            if (lastValue !== "*" &&
-                lastValue !== "/" &&
-                lastValue !== "+" &&
-                lastValue !== "-" &&
-                lastValue !== "."
-            ) {
-                displayVal.innerHTML += op;
+            if (lastValue === "*" ||
+                lastValue === "/" ||
+                lastValue === "+" ||
+                lastValue === "-") {
+                    displayVal.innerHTML = displayVal.innerHTML.slice(0, -1) + op;
+                } else if(lastValue !== ".") {
+                    displayVal.innerHTML += op;
                 }
             break
     }
