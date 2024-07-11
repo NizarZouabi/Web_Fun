@@ -1,0 +1,118 @@
+html {
+    background-color: #222222;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 50px;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#face {
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid black;
+    position: relative;
+    box-shadow: #ff0000 0 2px 8px;
+}
+
+#minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform-origin: bottom center
+}
+
+#seconds {
+    position: absolute;
+    top: 6%;
+    background-color: red;
+    height: 130px;
+    width: 2px;
+    transform: rotate(90deg);
+}
+
+#hour {
+    position: absolute;
+    top: 16%;
+    background-color: black;
+    height: 100px;
+    width: 8px;
+    transform: rotate(125deg);
+}
+
+#minutes {
+    background-color: grey;
+    height: 120px;
+    width: 4px;
+    transform: rotate(255deg);
+}
+
+#nine {
+    position: absolute;
+    top: 48%;
+    left: 20px;
+    scale: 2;
+}
+
+#twelve {
+    position: absolute;
+    top: 6%;
+    left: 140px;
+    scale: 2;
+}
+
+#three {
+    position: absolute;
+    top: 48%;
+    left: 263px;
+    scale: 2;
+}
+
+#six {
+    position: absolute;
+    top: 90%;
+    left: 140px;
+    scale: 2;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#clock {
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+    color: red;
+}
+
+#dot {
+    position: absolute;
+    top: 48%;
+    left: 49%;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    scale: 1;
+}
