@@ -1,0 +1,13 @@
+{
+  "name": "game-in-oop",
+  "version": "1.0.0",
+  "main": "battlefield.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
