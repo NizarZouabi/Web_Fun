@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    min-height: 960px;
+}
+
+.row div{
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+}
+.brick{
+    background-color: blue;
+}
+.coin{
+    background: url(./images/edf254eea0ca51397e883b6908ad57cb.gif) no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+#pac-man{
+    background: url("./images/pac-man.gif") center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.scorediv{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    color:goldenrod;
+    border: cyan solid 1px;
+    background: blue;
+    font-weight: bold;
+}
