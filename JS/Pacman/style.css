@@ -47,3 +47,13 @@ body{
     background: blue;
     font-weight: bold;
 }
+
+#ghost{
+    background: url("./images/200w.gif") center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 72px;
+    left: 576px;
+}
