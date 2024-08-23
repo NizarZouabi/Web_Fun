@@ -8,14 +8,23 @@ body{
     min-height: 960px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    padding-left: 0px;
+}
+
 .row div{
     width: 20px;
     height: 20px;
     display:inline-block;
 }
+
 .brick{
     background-color: blue;
 }
+
 .coin{
     background: url(./images/edf254eea0ca51397e883b6908ad57cb.gif) no-repeat;
     background-size: 50px;
@@ -27,14 +36,16 @@ body{
     background-size: cover;
     width: 20px;
     height: 20px;
+    border-radius:50%;
     position: absolute;
 }
 
 .scorediv{
+    color: white;
+    position: absolute;
+    top: 10px;
     padding-top: 1rem;
     padding-left: 1rem;
-    display: flex;
-    flex-direction: row;
     gap: 5px;
 }
 
@@ -54,6 +65,37 @@ body{
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 72px;
-    left: 576px;
+}
+
+.node{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: red;
+    background: white;
+    border: npx solid yellowgreen;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    z-index: 1;
+}
+
+#gameover{
+    
+}
+
+#cscore{
+
+}
+
+#hscore{
+
+}
+
+.restart{
+    
 }
